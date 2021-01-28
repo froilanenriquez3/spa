@@ -38,7 +38,7 @@
           <a [routerLink]= "['/single-card', cubes.indexOf(cube)]" (click)="clearSearch()">{{cube.name}}</a>
         </li>
         <li *ngFor="let fourbyfour of fourbyfours | filter:searchText" class="" >
-          <a [routerLink]= "['/single-card', fourbyfours.indexOf(fourbyfour)]" (click)="clearSearch()">{{fourbyfour.name}}</a>
+          <a [routerLink]= "['/single-four', fourbyfours.indexOf(fourbyfour)]" (click)="clearSearch()">{{fourbyfour.name}}</a>
         </li>
       </ul>
 

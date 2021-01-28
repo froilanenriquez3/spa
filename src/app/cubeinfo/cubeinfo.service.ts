@@ -88,8 +88,8 @@ export class CubeinfoService {
     return this.fourbyfours;
   }
 
-  getFour(){
-    return this.fourbyfours;
+  getFour(id: string){
+    return this.fourbyfours[id];
   }
 }
 

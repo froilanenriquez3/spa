@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { CubeinfoService } from '../cubeinfo/cubeinfo.service';
 
 @Component({
   selector: 'app-single-four',
@@ -7,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SingleFourComponent implements OnInit {
 
-  constructor() { }
+  singleFour: any;
+  constructor(
+    private ruta:ActivatedRoute,
+    private _servicio:CubeinfoService
+  ) {
+    this.ruta.params.subscribe(params=>{
+      this.singleFour= this._servicio.getFour(params['id']);
+    })
+  }
 
   ngOnInit(): void {
   }
