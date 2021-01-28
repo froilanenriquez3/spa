@@ -1,0 +1,21 @@
+<div class="fluid-container">
+  <div class="card m-3" >
+    <div class="card-header bg-success">
+      <h6 class="card-title">{{singleCard.name}}</h6>
+    </div>
+    <img class="card-img-top" [src]="singleCard.image" alt="Card image cap">
+
+    <div class="card-body">
+
+      <p class="card-text">
+        Price: {{singleCard.price}}
+        <br>
+        Size: {{singleCard.size}}
+      </p>
+
+    </div>
+    <div class="card-footer">
+      <a routerLink="/card" class="btn btn-success">Cubes</a>
+    </div>
+  </div>
+</div>

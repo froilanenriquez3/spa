@@ -1,0 +1,21 @@
+.search{
+  position:relative;
+}
+.results{
+  position:absolute;
+  top: 100%;
+  display: block;
+  list-style: none;
+  right: 1.5%;
+  z-index: 1;
+}
+
+.results li {
+  background-color: white;
+  padding: 5px;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
+  font-size: 13px;
+  width: 15em;
+}
