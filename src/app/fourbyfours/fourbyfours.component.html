@@ -1,0 +1,23 @@
+<div class="m-3 fluid-container">
+
+  <div class="card h-400" *ngFor="let item of cubes, index as i">
+    <div class="card-header ">
+      <h6 class="card-title">{{item.name}}</h6>
+    </div>
+    <img class="card-img-top" [src]="item.image" alt="Card image cap">
+
+    <div class="card-body">
+
+      <p class="card-text">
+        Price: {{item.price}}
+        <br>
+        Size: {{item.size}}
+      </p>
+
+    </div>
+    <div class="card-footer">
+      <a [routerLink]="['/single-card', i]" class="btn btn-success">More info</a>
+    </div>
+  </div>
+
+</div>

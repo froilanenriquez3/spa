@@ -10,7 +10,13 @@
         <a class="nav-link" routerLink=''>Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/card">Cubes</a>
+        <a class="nav-link" routerLink="/card">3x3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/fours">4x4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/card">2x2</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,6 +36,9 @@
       <ul *ngIf="searchText != '' && searchText != null"  class="results">
         <li *ngFor="let cube of cubes | filter:searchText" class="" >
           <a [routerLink]= "['/single-card', cubes.indexOf(cube)]" (click)="clearSearch()">{{cube.name}}</a>
+        </li>
+        <li *ngFor="let fourbyfour of fourbyfours | filter:searchText" class="" >
+          <a [routerLink]= "['/single-card', fourbyfours.indexOf(fourbyfour)]" (click)="clearSearch()">{{fourbyfour.name}}</a>
         </li>
       </ul>
 

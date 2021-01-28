@@ -10,10 +10,12 @@ import { CubeinfoService } from '../cubeinfo/cubeinfo.service';
 export class NavbarComponent implements OnInit {
 
   cubes: any[] = [];
+  fourbyfours: any[] = [];
   searchText: string;
 
   constructor(private _servicio:CubeinfoService) {
     this.cubes = _servicio.getCubes();
+    this.fourbyfours = _servicio.getFours();
    }
 
   ngOnInit(): void {

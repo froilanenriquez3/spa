@@ -16,6 +16,8 @@ import { FilterPipe } from './filter.pipe';
 
 import { SingleCardComponent } from './single-card/single-card.component';
 import { HomeComponent } from './home/home.component';
+import { FourbyfoursComponent } from './fourbyfours/fourbyfours.component';
+import { SingleFourComponent } from './single-four/single-four.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HomeComponent } from './home/home.component';
     CardComponent,
     FilterPipe,
     SingleCardComponent,
-    HomeComponent
+    HomeComponent,
+    FourbyfoursComponent,
+    SingleFourComponent
   ],
   imports: [
     BrowserModule,

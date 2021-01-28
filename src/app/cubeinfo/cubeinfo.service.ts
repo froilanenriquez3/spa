@@ -56,6 +56,22 @@ export class CubeinfoService {
     }
   ]
 
+  fourbyfours: Cube[] = [
+    {
+      name:"MOYU AOSU 4X4 GTS2 M",
+      price: 44.99,
+      size: 61,
+      image: "../assets/images/auso.jpg"
+
+    },
+    {
+      name: "YUXIN LITTLE MAGIC 4X4 M",
+      price: 12.99,
+      size: 60,
+      image: "../assets/images/yuxin.jpg"
+    }
+  ]
+
   constructor() {
     console.log("Service functioning");
   }
@@ -66,6 +82,14 @@ export class CubeinfoService {
 
   getCube(id: string){
     return this.cubes[id];
+  }
+
+  getFours(){
+    return this.fourbyfours;
+  }
+
+  getFour(){
+    return this.fourbyfours;
   }
 }
 

@@ -1,0 +1,15 @@
+.fluid-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fluid-container .card{
+  margin: 5px;
+  width: 24%;
+}
+
+.fluid-container img{
+  width: 100%;
+
+}
