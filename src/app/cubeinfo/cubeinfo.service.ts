@@ -69,6 +69,18 @@ export class CubeinfoService {
       price: 12.99,
       size: 60,
       image: "../assets/images/yuxin.jpg"
+    },
+    {
+      name: "YUXIN LITTLE MAGIC 4X4 M",
+      price: 12.99,
+      size: 60,
+      image: "../assets/images/yuxin.jpg"
+    },
+    {
+      name: "YUXIN LITTLE MAGIC 4X4 M",
+      price: 12.99,
+      size: 60,
+      image: "../assets/images/yuxin.jpg"
     }
   ]
 
