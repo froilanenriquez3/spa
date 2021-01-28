@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { CubeinfoService } from '../cubeinfo/cubeinfo.service';
 
 
@@ -8,6 +8,7 @@ import { CubeinfoService } from '../cubeinfo/cubeinfo.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+
   cubes: any[] = [];
   searchText: string;
 
@@ -16,6 +17,10 @@ export class NavbarComponent implements OnInit {
    }
 
   ngOnInit(): void {
+  }
+
+  clearSearch(){
+    this.searchText = '';
   }
 
 }

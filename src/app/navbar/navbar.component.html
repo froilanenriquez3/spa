@@ -28,7 +28,9 @@
       <input class="search" name="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="searchText" autocomplete="off">
 
       <ul *ngIf="searchText != '' && searchText != null"  class="results">
-        <li *ngFor="let cube of cubes | filter:searchText" class="" ><a [routerLink]= "['/single-card', cubes.indexOf(cube)]">{{cube.name}}</a></li>
+        <li *ngFor="let cube of cubes | filter:searchText" class="" >
+          <a [routerLink]= "['/single-card', cubes.indexOf(cube)]" (click)="clearSearch()">{{cube.name}}</a>
+        </li>
       </ul>
 
       <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
