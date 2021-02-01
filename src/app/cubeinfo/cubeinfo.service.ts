@@ -10,49 +10,32 @@ export class CubeinfoService {
       name: 'MYSTIC DAYAN GUHONG V4 M',
       price: 24.99,
       size: 56,
-      image: "../assets/images/mystic.jpg"
+      image: "../assets/images/mystic.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
     },
     {
       name: 'ANGSTROM DAYAN GUHONG V4 ',
       price: 24.99,
       size: 56,
-      image: "../assets/images/angstrom.jpg"
+      image: "../assets/images/angstrom.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
     },
     {
       name: 'CUBICLE CUSTOM GAN 11',
       price: 68.99,
       size: 56,
-      image: "../assets/images/gan.jpg"
+      image: "../assets/images/gan.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
     },
     {
-      name: 'CUBICLE CUSTOM GAN 11',
-      price: 68.99,
-      size: 56,
-      image: "../assets/images/gan.jpg"
-    },
-    {
-      name: 'CUBICLE CUSTOM GAN 11',
-      price: 68.99,
-      size: 56,
-      image: "../assets/images/gan.jpg"
-    },
-    {
-      name: 'CUBICLE CUSTOM GAN 11',
-      price: 68.99,
-      size: 56,
-      image: "../assets/images/gan.jpg"
-    },
-    {
-      name: 'CUBICLE CUSTOM GAN 11',
-      price: 68.99,
-      size: 56,
-      image: "../assets/images/gan.jpg"
-    },
-    {
-      name: 'CUBICLE CUSTOM GAN 11',
-      price: 68.99,
-      size: 56,
-      image: "../assets/images/gan.jpg"
+      name: 'YUXIN LITTLE MAGIC 3X3',
+      price: 4.99,
+      size: 55.5,
+      image: "../assets/images/yuxin3.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
     }
   ]
 
@@ -61,26 +44,34 @@ export class CubeinfoService {
       name:"MOYU AOSU 4X4 GTS2 M",
       price: 44.99,
       size: 61,
-      image: "../assets/images/auso.jpg"
+      image: "../assets/images/auso.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
 
     },
     {
       name: "YUXIN LITTLE MAGIC 4X4 M",
-      price: 12.99,
-      size: 60,
-      image: "../assets/images/yuxin.jpg"
+      price: 6.99,
+      size: 59,
+      image: "../assets/images/mf.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
     },
     {
-      name: "YUXIN LITTLE MAGIC 4X4 M",
+      name: "MFJS MEILONG 4X4",
       price: 12.99,
       size: 60,
-      image: "../assets/images/yuxin.jpg"
+      image: "../assets/images/yuxin.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
     },
     {
-      name: "YUXIN LITTLE MAGIC 4X4 M",
-      price: 12.99,
-      size: 60,
-      image: "../assets/images/yuxin.jpg"
+      name: "MOYU AOSU 4X4 WR M",
+      price: 42.99,
+      size: 59,
+      image: "../assets/images/moyuwr.jpg",
+      desc: "The Mystic Dayan GuHong v4 M 3x3 is one of our premium versions of DaYan’s fourth iteration of its successful magnetic 3x3’s in the GuHong series. It is set up with Traxxas-10k on the core, and Traxxas-10k, Mystic, and DNM-37 on the pieces creating a soft and fast turning experience. This product is lubed with Cubicle Labs Mystic, which contains aloe. Please refrain from purchasing this product if you have an aloe allergy. Cubicle Premium Cube Guarantee: The workmanship on  premium cubes is covered by our 6-month warranty. For more details of the warranty and what's covered, please refer to our Premium Warranty page. Original puzzle made by DaYan. It features a Mystic logo on the green side."
+
     }
   ]
 
@@ -110,4 +101,5 @@ export interface Cube{
   price: number;
   size: number;
   image: string;
+  desc: string;
 }

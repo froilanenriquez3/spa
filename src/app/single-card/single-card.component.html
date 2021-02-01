@@ -1,19 +1,20 @@
 <div class="fluid-container">
-  <div class="card m-3" >
+  <div class="card m-4" >
     <div class="card-header bg-success">
       <h6 class="card-title">{{singleCard.name}}</h6>
     </div>
-    <img class="card-img-top" [src]="singleCard.image" alt="Card image cap">
 
     <div class="card-body">
-
+      <img [src]="singleCard.image" alt="Card image cap">
+      <div id="text">
       <p class="card-text">
-        Price: {{singleCard.price}}
+        Price: ${{singleCard.price}}
         <br>
-        Size: {{singleCard.size}}
+        Size: {{singleCard.size}} mm
       </p>
-
+      <p>{{singleCard.desc}}</p>
     </div>
+  </div>
     <div class="card-footer">
       <a routerLink="/card" class="btn btn-success">Cubes</a>
     </div>
